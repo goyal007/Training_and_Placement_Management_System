@@ -1,0 +1,687 @@
+body{
+	margin:0;
+	padding:0;
+    background:#FFF;
+    overflow-x:hidden;
+	font-size: 120%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*for header.....................................*/
+.col-sm-12 {
+    background-color:#f1f1f1;
+    padding: 1px;
+    text-align: left;
+	font-weight: bold;
+    font-size: 16px;
+	height:90px;
+	margin:0px;
+}
+.logo{
+	padding-left:40px;
+	padding-top:20px;
+   
+}
+ a {
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+h6{
+    font-family: "Open Sans";
+    font-weight: 400;
+	font-size: 14px;
+}
+h4{
+    font-family: "Open Sans";
+    font-weight: 400;
+	font-size: 19px;
+}
+
+.mg-sm {
+	
+    margin-top: 10px;
+    margin-bottom: 5px;
+	margin-left:10px;
+}
+.mg-clear {
+    margin: 0;
+}
+.ltc-black {
+	text-decoration: none;
+	padding-left:10px;
+	margin:0;
+	color:#000000;
+	padding-top:0px;
+	
+	
+}
+.pull-left {
+	text-decoration: none;
+	padding-left:10px;
+	margin:0;
+	margin:0;
+	color:#000000;
+	
+	
+}
+
+/* Style the top navigation bar .................*/
+.list-unstyled  {
+    overflow: hidden;
+    background-color: #ffffff;
+	margin:0px;
+}
+
+/* Style the list-unstyled links */
+.navi a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 197.2px;
+    text-decoration: underline;
+	 font-size: 17px;
+}
+
+/* Change color on hover */
+.navi a:hover {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+
+
+/* Style the top navigation bar .................*/
+.col-sm-2  {
+    overflow: hidden;
+    background-color: #ffffff;
+	margin:0px;
+}
+
+/* Style the list-unstyled links */
+.col-sm-2 a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 198px;
+    text-decoration: underline;
+
+}
+
+/* Change color on hover */
+.col-sm-2 a:hover {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+
+/*for inline-block for company student admin
+.list-unstyled {
+    background-color: gold; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+.list-unstyled li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+*/
+
+/*for slideshow*/
+.slides{
+	background-color: #f1f1f1;
+	margin:0px;
+	
+	
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+	
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+  
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+/*for separate navigation bar*/
+.list-unstyled3  {
+	text-align:center;
+	
+    margin-top:0;
+	padding-top:3px;
+    background-color:#ddd;
+	height:47px;
+	padding-left:10px;
+	
+}
+
+.para{
+	margin-top:8px;
+	font-size:20px;
+	padding-left:80px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.list-unstyled3 a {
+    margin-top:-12px;
+    color: black;
+	text-decoration:underline;
+}
+
+
+
+
+
+/* Style the bottom navigation bar .................*/
+.col-sm-1  {
+    overflow: hidden;
+    background-color: #ffffff;
+	margin-top:-24px;
+}
+
+/* Style the list-unstyled links */
+.col-sm-1 a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 297px;
+    text-decoration: underline;
+
+}
+
+/* Change color on hover */
+.col-sm-1 a:hover {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+
+
+
+
+
+/* for footer*/
+.col-sm-4 {
+    height:120px;
+    background-color: #f1f1f1;
+    padding: 10px;
+	text-align: center;
+	font-size:18px;
+}
+.footer1{
+	margin-top:-80px;
+	margin-right:800px;
+}
+.footer2 {
+	margin-top:-60px;
+	margin-left:800px;
+	
+}
+.col-sm-44 {
+    height:170px;
+    background-color: #f1f1f1;
+    padding: 10px;
+  text-align: center;
+  font-size:18px;
+}
+.footer3{
+  margin-top:-130px;
+  margin-right:800px;
+}
+.footer4 {
+  margin-top:-80px;
+  margin-left:800px;
+  
+}
+
+
+
+
+
+/*for student page.....................*/
+.student1 {
+   
+ 
+  height:350px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("m6.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+
+}
+.list-unstyled1 {
+	margin-top:100px
+	background: transparent;
+}
+
+.btn3 {
+	margin: 35px 110px 200px 35px;
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color:blue;
+	border-color: ;
+    font-family: "Open Sans";
+    font-weight: 400;
+	color:white;       /*for color of font...*/
+    text-decoration: none;
+	opacity: 0.6;
+}
+
+/*for company page.....................*/
+.company1 {
+   
+ 
+  height:350px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("m6.jpg");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0px;
+
+}
+/*for columns in company page....*/
+
+
+.temp {
+ 
+	background-color:whitesmoke;
+	text-align:center;
+	margin-bottom: 0px;
+	height: 20px;
+	
+	
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 210px; 
+	background-color:blue;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+
+.left, .right {
+  width: 33.33%;
+  text-align:center;
+}
+
+.middle {
+  width: 33.33%;
+  text-align:center;
+}
+
+/* Clear floats after the columns */
+.hotels:after {
+    content: "";
+	
+    display: table;
+    clear: both;
+	color:#f1f1f1;
+	
+}
+.hotels{
+	font-size:16px;
+	margin-top:-20px;
+	padding-top:0px;
+}
+
+
+
+
+
+/*for admin page.....................*/
+.admin1 {
+   
+ 
+  height:350px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("m6.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0;
+
+}
+
+
+/*for index_student_intern page.....................*/
+.index_student_intern {
+   
+ 
+  height:450px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("m6.jpg");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 40px;
+
+}
+.list-unstyled4 {
+	margin-top:70px;
+	background: transparent;
+}
+
+.btn4 {
+	margin: 35px 250px 200px 235px;
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color:blue;
+	border-color: ;
+    font-family: "Open Sans";
+    font-weight: 400;
+	color:white;       /*for color of font...*/
+    text-decoration: none;
+	opacity: 0.7;
+}
+.btn5 {
+	margin: 35px 220px 200px 230px;
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color:blue;
+	border-color: ;
+    font-family: "Open Sans";
+    font-weight: 400;
+	color:white;       /*for color of font...*/
+    text-decoration: none;
+	opacity: 0.7;
+}
+/*for index_admin page.....................*/
+.index_admin {
+   
+ 
+  height:490px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url("m6.jpg");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 40px;
+
+}
+.list-unstyled5 {
+	margin-top:50px;
+	background: transparent;
+}
+
+.btn6 {
+	margin: 35px 210px 200px 185px;
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color:blue;
+	border-color: ;
+    font-family: "Open Sans";
+    font-weight: 400;
+	color:white;       /*for color of font...*/
+    text-decoration: none;
+	opacity: 0.7;
+}
+.btn7 {
+	margin: 35px 190px 200px 185px;
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color:blue;
+	border-color: ;
+    font-family: "Open Sans";
+    font-weight: 400;
+	color:white;       /*for color of font...*/
+    text-decoration: none;
+	opacity: 0.7;
+}
+/*for intern_notification page.....................*/
+.btn8 {
+	margin: 35px 230px 200px 235px;
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color:blue;
+	border-color: ;
+    font-family: "Open Sans";
+    font-weight: 400;
+	color:white;       /*for color of font...*/
+    text-decoration: none;
+	opacity: 0.7;
+}
+/*for index_admin page.....................*/
+.btn9 {
+	margin: 35px 110px 200px 90px;
+    display: inline-block;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color:blue;
+	border-color: ;
+    font-family: "Open Sans";
+    font-weight: 400;
+	color:white;       /*for color of font...*/
+    text-decoration: none;
+	opacity: 0.7;
+}
